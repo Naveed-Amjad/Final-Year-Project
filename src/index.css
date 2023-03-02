@@ -1,7 +1,123 @@
+body {
+  padding: 0;
+  box-sizing: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 body{
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
   font-family: 'Roboto Condensed', sans-serif;
   overflow-x: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left:60px;
+  margin-right:60px;
+}
+
+.productList {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  border-radius: 10%;
+}
+
+.productCard {
+  position: relative;
+  background-color: var(--color-grey-primary);
+  margin-left: 20px;
+  flex: 1 0 10rem;
+  max-width: 20rem;
+  max-height: 30rem;
+  transition: 0.2s;
+  border-radius: 15%;
+  overflow: hidden;
+  box-shadow: 0.5rem 0.5rem 1rem #bbbbbb;
+}
+
+.productCard:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+  border-radius: 15%;
+  overflow: hidden;
+}
+
+.productImage {
+  width: 262px;
+  height: 173px;
+  
+}
+
+.productCard__content {
+  margin: 20px 10px 20px 10px;
+}
+
+.productName {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #011e3f;
+}
+.paraname {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  line-height: 14px;
+
+  color: #011e3f;
+}
+
+.displayStack__2 {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productPara {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.productRating{
+display: flex;
+padding: 0 15px;
+margin: 0 15px;
+}
+.numOfRatings{
+  margin-left: 10px;
+}
+.filled{
+  color: black;
+  margin-left:1px;
+  margin-right:1px;
+}
+.hollow{
+  color: brown;
+  margin-left:1px;
+  margin-right:1px;
 }

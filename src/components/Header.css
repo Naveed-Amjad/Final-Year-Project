@@ -1,8 +1,10 @@
 .navbar{
     height: 90px;
     width: 100%;
-    /* border: 1px solid green; */
-    background: linear-gradient(69.61deg, #F9f4F0 1.06%, #AEC3CE 55.77%);
+    font-family: 'poppins';
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(69.61deg, #F9F4F0 1.06%, #AEC3CE 55.77%);
 }
 .navbar li {
     list-style: none;
@@ -10,15 +12,16 @@
 .navbar ul {
     display: flex;
     justify-content: space-between;
-    padding: 40px 90px 30px 10px;
+    padding: 30px 70px 30px 10px;
     margin-top: 0px;
 }
 .navbar li:nth-child(1){
-    flex-grow: 0.4;
+    flex-grow: 0.5;
     flex-basis: 50px;
     margin-bottom: -10px;
 }
  .navbar li img{
-    height: 60px;
-    width: 170px;
+    padding-left: 30px;
+    height: 35px;
+    width: 140px;
  }

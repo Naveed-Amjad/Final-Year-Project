@@ -1,0 +1,11 @@
+.HomePage{
+width: auto;
+/* height: 550px; */
+background: #FFFFFF;
+}
+.navbar{
+    /* border: 1px solid red; */
+    width: auto;
+    background-color: linear-gradient(69.61deg, #F9F6F0 1.06%, #AEC3CE 55.77%);;
+    /* height: 100px; */
+}

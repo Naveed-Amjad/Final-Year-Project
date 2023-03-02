@@ -20,7 +20,13 @@ h1{
 .list ul {
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 10px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 26px;
+color: #011E3F;
 }
 
 /* icons styling */
@@ -36,11 +42,11 @@ h1{
 .icons ul{
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 10px;
 }
 .icons ul li img{
-    height: 32px;
-    width: 30px;
+    height: 22px;
+    width: 22px;
 }
 .copyright{
     position: relative;

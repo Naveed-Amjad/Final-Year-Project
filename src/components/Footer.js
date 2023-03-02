@@ -1,8 +1,10 @@
 import "./../components/Footer.css";
-import facebookIcon from './../images/facebook.jpeg';
-import instagramIcon from './../images/instagram.jpeg';
-import twitterIcon from './../images/twitter.jpeg';
-import linkedinIcon from './../images/linkedin.jpeg';
+import logo from './../images/logo.png';
+import facebookIcon from './../images/facebook.png';
+import instagramIcon from './../images/instagram.png';
+import twitterIcon from './../images/twitter.png';
+import linkedinIcon from './../images/linkedin.png';
+import { FaCopyright } from "react-icons/fa";
 
 const Footer = () => {
     return (
